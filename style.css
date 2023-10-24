@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    /* margin-top: 20px; */
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 105px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.59);
+    -webkit-box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.59);
+    -moz-box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.59);
+    position: relative;
+    padding-left: 50px;
+}
+
+header img {
+    position: absolute;
+    left: 193px;
+    top: -3px;
+}
+
+.fluid-container {
+    margin-top: 40px;
+}
+
+.upper-navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 67px;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+button {
+    margin-top: 12px;
+    margin-left: 1px;
+    background-color: #FFBC0D;
+    outline: none;
+    font-family: sans-serif;
+    line-height: 16px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    width: 193.062px;
+    height: 41px;
+}
+
+.left {
+    display: flex;
+    gap: 25px;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.right-loc i {
+    color: red;
+}
+
+.right-loc a {
+    text-decoration: none;
+    color: black;
+}
+
+.middle-list {
+    position: relative;
+}
+
+.middle-list ul {
+    position: absolute;
+    display: flex;
+    gap: 49px;
+    top: -36px;
+    left: 301px;
+}
+
+.middle-list ul li {
+    font-size: 14px;
+    line-height: 27px;
+}
+
+footer {
+    width: 100%;
+    padding-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.ourcompany h4 {
+    font-weight: bold;
+}
+
+hr {
+    margin-left: 100px;
+    width: 1300px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin-left: 170px;
+}
+.social-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.apple-images{
+
+    margin-right: 141px;
+}
+.social-links i {
+    color: grey;
+    font-size: 20px;
+}
+
+/* Our menu  */
+.menu-container {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-container span:hover {
+    border-bottom: 5px solid red;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.menu-container:hover .menu {
+    /* border-bottom: 2px solid red; */
+    display: block;
+}
+
+.menu-item {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Our menu  */
+
+.omelete{
+    font-weight: 700px;
+    font-size: 54px;
+}
+.omelete button{
+    margin-left: 20px;
+}
+.nutrition h1{
+    color: black;
+    font-weight: bolder;
+    font-size: 36px;
+    text-decoration: none solid rgb(41,41,41);
+    font-weight: 700px;
+}
+.nutrition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nutrition p{
+    /* color: #FFBC0D; */
+    font-size: 16px;
+    line-height: 24px;
+    /* text-decoration: none solid rgb(41,41,41); */
+    font-weight: 700px;
+}
+.nutrition button{
+    text-align: center;
+}
+.cards{
+    margin-left: 120px;
+}
+.end-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 141px;
+    padding-right: 141px;
+}
+.right{
+   position: relative;
+}
+.right img {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    left: -30px;
+    top: 0px;
+}
+/* .related-products h1{
+    margin-top: 20px;
+} */
+.related-main{
+    background-color: #F9F9F9;
+    height: 70vh;
+}
+.end{
+    margin-top: 80px;
+    height: 10vh;
+}
